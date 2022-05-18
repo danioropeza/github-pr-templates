@@ -22,9 +22,3 @@ Description:
 ## Other Information
 
 Issue Number: 
-
-
-## Does this PR Introduces a breaking changes?
-
-- [ ] Yes
-- [ ] No
