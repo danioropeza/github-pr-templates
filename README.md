@@ -1,1 +1,1 @@
-# github-pr-templates
+# GitHub Pull Requests Templates
