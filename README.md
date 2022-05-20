@@ -1,18 +1,9 @@
 # GitHub Pull Requests Templates
 
-One of the most critical roles we play as developers is to clearly communicate with our team. When a change or addition is proposed to a codebase as a developer, I want the team members who review the code to understand what I was trying to achieve with that work. As a code reviewer, I want those who propose code changes to explain their changes and let me know me how to test the code.
+One of the most critical roles we play as developers is to clearly communicate with our team.
 
-These templates are boilerplate text or other content that will automatically show up in the change request form when project collaborators issue a pull request or a merge request against a code repository.
+As a developer, I want the team members who will review my code to understand what I'm trying to achieve with my work. And as a code reviewer, I want those who propose code changes to explain their changes and let me know how I can test their code.
 
-Communicate better with Templates
-By creating templates for pull and merge requests, we can help encourage contributors to communicate more effectively with their teams by noting what’s new or changed, give testing instructions to reviewers, or even help to ensure that code changes have been thoroughly vetted.
+GitHub allows us to create Pull Request Templates. This feature is very helpful because we can communicate all of our ideas in one place. We can encourage contributors to communicate more effectively with their teams by noting what’s new and changed.
 
-Educate Dev though PRs
-
-
-
-// tests
-// Coverage
-// Localization
-// Documentation
-// Screenshots
+Also, using pull request templates is a way of educating developers because with the information we remember the developers to do some verifications before creating the pull requests.
