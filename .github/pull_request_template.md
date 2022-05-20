@@ -21,7 +21,7 @@ Copy the desired template name and add the `template=` parameter to the GitHub U
 #### Example 1:
 If the current GitHub URL is like this:
 
-`https://github.com/danioropeza/github-pull-request-templates/compare/temporal?expand=1`
+`https://github.com/danioropeza/github-pull-request-templates/compare/bug/aa-7565?expand=1`
 
 Just append `&&template=bug-pr-template.md` at the end of the URL.
 
@@ -29,6 +29,6 @@ Just append `&&template=bug-pr-template.md` at the end of the URL.
 #### Example 2:
 If the current GitHub URL is like this:
 
-`https://github.com/danioropeza/github-pull-request-templates/compare/main...temporal`
+`https://github.com/danioropeza/github-pull-request-templates/compare/develop...bug/aa-7565`
 
 Just append `?expand=1&&template=bug-pr-template.md` at the end of the URL.
