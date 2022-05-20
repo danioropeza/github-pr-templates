@@ -30,3 +30,5 @@ If the current GitHub URL is like this:
 https://github.com/danioropeza/github-pull-request-templates/compare/main...temporal
 
 Just append `?expand=1&&template=bug-pr-template.md`
+
+
