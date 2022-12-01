@@ -10,4 +10,6 @@ Also, using pull request templates is a way of educating developers because with
 
 ### What does this repository have?
 
-This repository contains generic templates for different types of code changes. Likewise, it shows in action the configuration and use of multiple pull request templates through a proposal that has a template creator as a base. This template creator works by copying and pasting some values in the GitHub URL.
+In this repository you can find an example of a Pull Request template. Click here [.github/pull_request_template.md](https://github.com/danioropeza/github-pull-request-templates/blob/develop/.github/pull_request_template.md) to see each point and its explanation of the Pull Request template.
+
+This article is also in Medium Educate developers through GitHub Pull Requests Templates.
