@@ -1,4 +1,4 @@
-# GitHub Pull Requests Templates
+# Educate developers through GitHub Pull Requests Templates
 
 One of the most critical roles we play as developers is to clearly communicate with our team.
 
