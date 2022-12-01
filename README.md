@@ -10,6 +10,6 @@ Also, using pull request templates is a way of educating developers because with
 
 ### What does this repository have?
 
-In this repository you can find an example of a Pull Request template. Click here [.github/pull_request_template.md](https://github.com/danioropeza/github-pull-request-templates/blob/develop/.github/pull_request_template.md) to see each point and its explanation of the Pull Request template.
+In this repository you can find an example of a Pull Request template. Click here [Explanation of the Pull Request Template points](https://github.com/danioropeza/github-pull-request-templates/tree/develop/.github) to see each point and its explanation of the Pull Request template.
 
 This article is also in Medium Educate developers through GitHub Pull Requests Templates.
