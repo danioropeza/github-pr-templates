@@ -40,9 +40,9 @@ In this repository you can find an example of a Pull Request template. [Click he
 
 &emsp; 6.6) verify that we are writing sufficient and useful logs. Remember that the logs are for developers, not end users. The logs have to help the developer to troubleshoot. You have to ask yourself… Are the logs enough to interpret the context when an error occurs?
 
-&emsp; “Typing File Not Found” doesn’t help at all. We need to know what file you were looking for, so we can try to do something.
+&emsp; For example, logging "File Not Found" is not useful because you do not know what file you were looking for.
 
-&emsp; 6.7) verify that everything is working well with Swagger.
+&emsp; 6.7) verify that everything is working well with Swagger. Documentation is a point that developers often neglect. But correct documentation, especially if it is for clients, goes a long way.
 
 &emsp; 6.8) verify that all the new visible texts for the user have their localization keys. Remember that a word can have few characters in one language and many in another language. Verify that the user interface does not break with very long and short texts.
 
@@ -50,7 +50,7 @@ In this repository you can find an example of a Pull Request template. [Click he
 
 &emsp; 6.10) verify that QA is aware of my changes. Let’s not forget that for a product to be of quality, it must be tested many times. Therefore, it is important to test our changes before merging the code.
 
-&emsp; 6.11) Generally, there should be documentation on how to build the product. If you download it from scratch and try to compile to start working, ideally there should be a few steps. If that documentation becomes obsolete, it is serious. Because a developer wouldn’t know how to start, and would have to figure it out.
+&emsp; 6.11) Generally, there should be documentation on how to build the product. If you download it from scratch and try to compile to start working, ideally there should be a few steps. If that documentation becomes obsolete, it is serious. Because a developer wouldn’t know how to start, and would have to figure it out by himself.
 
 &emsp; 6.12) verify that the changes in the database do not affect the existing data in production. Remember that the most valuable thing in the company is the user data, you must take care of them like gold and avoid any losses or inconsistencies.
 
@@ -62,8 +62,8 @@ In this repository you can find an example of a Pull Request template. [Click he
 
 &emsp; 6.16) verify that the changes I’m adding don’t have other foreign changes, and only do one thing. It should only do what the ticket says, if you want to add something, it is much better to create another ticket for that.
 
-&emsp; 6.17) many times we send pull requests without verifying that we can refactor the code even more. Have I really reviewed the changes I’m adding?
+&emsp; 6.17) many times we send pull requests without verifying that we can refactor the code even more. Have I really reviewed the changes I’m sending?
 
-7 ) Reminder to specify what was not marked and if I can clearly explain the reasons why it was not marked.
+7 ) If few of the items are not checked the PR is still valid. However, ensure to explain the reasons why few of the items do not apply or comply.
 
 This article is also in Medium [Educate developers through GitHub Pull Requests Templates](https://medium.com/@danioropezasoria/educate-developers-through-github-pull-requests-templates-41b7c64287f7).
