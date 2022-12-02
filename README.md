@@ -66,4 +66,10 @@ In this repository you can find an example of a Pull Request template. [Click he
 
 7 ) If few of the items are not checked the PR is still valid. However, ensure to explain the reasons why few of the items do not apply or comply.
 
+### Conclusion
+
+In conclusion, communicating your changes to Code Reviewers can save time for both you and the reviewer. In this way, the Code Reviewer will be in charge of reviewing other pieces of code and not mentioning the common problems that usually exist.
+
+Remember that the example we explain is just an example and that you can adapt/modify it to the project you are working on. You can add/remove new points, whatever is best for your team. Keep in mind that the idea of this is to optimize Code Reviewer and developer communication, not to make the process more tedious.
+
 This article is also in Medium [Educate developers through GitHub Pull Requests Templates](https://medium.com/@danioropezasoria/educate-developers-through-github-pull-requests-templates-41b7c64287f7).
