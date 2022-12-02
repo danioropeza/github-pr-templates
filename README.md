@@ -28,41 +28,41 @@ In this repository you can find an example of a Pull Request template. [Click he
 
 6 ) This section is to help the developer to verify some points before sending the Pull Requests. The following points remind the developer:
 
-&emsp; 6.1) not to merge code without first doing a rebase with the integration branch. This is a common mistake in developers, they merge the code without rebasing, we can avoid this with this simple reminder.
+&emsp; 6.1) Not to merge code without first doing a rebase with the integration branch. This is a common mistake in developers, they merge the code without rebasing, we can avoid this with this simple reminder.
 
-&emsp; 6.2) if the Pull Request meets the ticket acceptance criteria. Double check that it complies with everything specified in the ticket so you don’t have to add new changes later.
+&emsp; 6.2) If the Pull Request meets the ticket acceptance criteria. Double check that it complies with everything specified in the ticket so you don’t have to add new changes later.
 
-&emsp; 6.3) if it can be used as valuable documentation for the future. In other words, when we go back in time to see the history, could it be useful to see the Pull Request?
+&emsp; 6.3) If it can be used as valuable documentation for the future. In other words, when we go back in time to see the history, could it be useful to see the Pull Request?
 
-&emsp; 6.4) verify that new or existing inputs have data validations. This applies to both front-end and back-end.
+&emsp; 6.4) Verify that new or existing inputs have data validations. This applies to both front-end and back-end.
 
-&emsp; 6.5) verify that the asynchronous calls have their corresponding catches, and that we do not miss an error that kills the application. Think in the possibility of failure scenarios and think about how to solve them if they appear.
+&emsp; 6.5) Verify that the asynchronous calls have their corresponding catches, and that we do not miss an error that kills the application. Think in the possibility of failure scenarios and think about how to solve them if they appear.
 
-&emsp; 6.6) verify that we are writing sufficient and useful logs. Remember that the logs are for developers, not end users. The logs have to help the developer to troubleshoot. You have to ask yourself… Are the logs enough to interpret the context when an error occurs?
+&emsp; 6.6) Verify that we are writing sufficient and useful logs. Remember that the logs are for developers, not end users. The logs have to help the developer to troubleshoot. You have to ask yourself… Are the logs enough to interpret the context when an error occurs?
 
 &emsp; For example, logging "File Not Found" is not useful because you do not know what file you were looking for.
 
-&emsp; 6.7) verify that everything is working well with Swagger. Documentation is a point that developers often neglect. But correct documentation, especially if it is for clients, goes a long way.
+&emsp; 6.7) Verify that everything is working well with Swagger. Documentation is a point that developers often neglect. But correct documentation, especially if it is for clients, goes a long way.
 
-&emsp; 6.8) verify that all the new visible texts for the user have their localization keys. Remember that a word can have few characters in one language and many in another language. Verify that the user interface does not break with very long and short texts.
+&emsp; 6.8) Verify that all the new visible texts for the user have their localization keys. Remember that a word can have few characters in one language and many in another language. Verify that the user interface does not break with very long and short texts.
 
 &emsp; 6.9) verify that the changes in the User Interface are responsive with different screen dimensions.
 
-&emsp; 6.10) verify that QA is aware of my changes. Let’s not forget that for a product to be of quality, it must be tested many times. Therefore, it is important to test our changes before merging the code.
+&emsp; 6.10) Verify that QA is aware of my changes. Let’s not forget that for a product to be of quality, it must be tested many times. Therefore, it is important to test our changes before merging the code.
 
 &emsp; 6.11) Generally, there should be documentation on how to build the product. If you download it from scratch and try to compile to start working, ideally there should be a few steps. If that documentation becomes obsolete, it is serious. Because a developer wouldn’t know how to start, and would have to figure it out by himself.
 
-&emsp; 6.12) verify that the changes in the database do not affect the existing data in production. Remember that the most valuable thing in the company is the user data, you must take care of them like gold and avoid any losses or inconsistencies.
+&emsp; 6.12) Verify that the changes in the database do not affect the existing data in production. Remember that the most valuable thing in the company is the user data, you must take care of them like gold and avoid any losses or inconsistencies.
 
-&emsp; 6.13) verify that our implementation has Unit Tests.
+&emsp; 6.13) Verify that our implementation has Unit Tests.
 
-&emsp; 6.14) double check that the Unit Tests and e2e are working fine and not broken.
+&emsp; 6.14) Double check that the Unit Tests and e2e are working fine and not broken.
 
 &emsp; 6.15) A pull request with many changes is more difficult to review. That is why it is better that they are short and easy to read.
 
-&emsp; 6.16) verify that the changes I’m adding don’t have other foreign changes, and only do one thing. It should only do what the ticket says, if you want to add something, it is much better to create another ticket for that.
+&emsp; 6.16) Verify that the changes I’m adding don’t have other foreign changes, and only do one thing. It should only do what the ticket says, if you want to add something, it is much better to create another ticket for that.
 
-&emsp; 6.17) many times we send pull requests without verifying that we can refactor the code even more. Have I really reviewed the changes I’m sending?
+&emsp; 6.17) Many times we send pull requests without verifying that we can refactor the code even more. Have I really reviewed the changes I’m sending?
 
 7 ) If few of the items are not checked the PR is still valid. However, ensure to explain the reasons why few of the items do not apply or comply.
 
