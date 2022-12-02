@@ -1,4 +1,4 @@
-# Enhance changes communication through GitHub Pull Requests Templates
+# Enhance the communication of your changes through GitHub Pull Requests Templates
 
 One of the most critical roles we play as developers is to clearly communicate with our team.
 
@@ -72,4 +72,4 @@ In conclusion, communicating your changes to Code Reviewers can save time for bo
 
 Remember that the example we explain is just an example and that you can adapt/modify it to the project you are working on. You can add/remove new points, whatever is best for your team. Keep in mind that the idea of this is to optimize Code Reviewer and developer communication, not to make the process more tedious.
 
-This article is also in Medium [Educate developers through GitHub Pull Requests Templates](https://medium.com/@danioropezasoria/educate-developers-through-github-pull-requests-templates-41b7c64287f7).
+This article is also in Medium [Enhance the communication of your changes through GitHub Pull Requests Templates](https://medium.com/@danioropezasoria/educate-developers-through-github-pull-requests-templates-41b7c64287f7).
